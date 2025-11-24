@@ -1,0 +1,12 @@
+{
+  "name": "quiz-app",
+  "outputfilename": "quiz-app",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Copilot",
+    "email": "copilot@github.com"
+  }
+}
