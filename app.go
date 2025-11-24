@@ -51,7 +51,7 @@ type App struct {
 
 // NewApp creates a new App application struct
 func NewApp() *App {
-	config := openai.DefaultConfig("sk-jisVIO44N30kkyusAKPc5b0YCmMX44CltY2546mQy2H693QA")
+	config := openai.DefaultConfig("")
 	config.BaseURL = "https://api.moonshot.cn/v1"
 	client := openai.NewClientWithConfig(config)
 	return &App{
